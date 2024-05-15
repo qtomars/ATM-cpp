@@ -1,8 +1,12 @@
-#include <iostream>
-using namespace std;
-int main(){
+#include "ATM.h"
+#include "User.h"
 
+int main() {
+    
+    ATM atm;
+    User user("Username");
 
+    // ...
 
-  return 0;
+    return 0;
 }
