@@ -1,0 +1,30 @@
+{
+  "interest_rates": {
+    "savings": 0.05,
+    "checking": 0.02
+  },
+  "withdrawal_limits": {
+    "daily": 1000,
+    "weekly": 5000,
+    "monthly": 20000
+  },
+  "supported_currencies": ["USD", "EUR", "GBP"],
+  "transaction_fees": {
+    "ATM_withdrawal_other_bank": 1.5,
+    "balance_inquiry": 0.5
+  },
+  "user_interface": {
+    "color_theme": "blue",
+    "font_size": "medium"
+  },
+  "security_settings": {
+    "password_requirements": {
+      "min_length": 8,
+      "requires_uppercase": true,
+      "requires_lowercase": true,
+      "requires_digit": true,
+      "requires_special_character": false
+    },
+    "session_timeout_minutes": 15
+  }
+}
